@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+*{
+    color: 7E57C2;
+    background-color: #f5f6fa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f6fa !important;
+}
+nav{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#home h1{
+    text-transform: capitalize !important;
+    line-height: 50px;
+    
+}
+
+#home h1 span{
+    color: #7e57c2;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 1s infinite ease-in-out;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+#home .btn{
+    letter-spacing: 3px !important;
+}
+#work .img-box{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+#work .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#work .col-md-3{
+    margin: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#about .img-cover{
+    border: none !important;
+}
+
+footer a img{
+    width: 25px;
+    margin: 5px;
+}
+footer a:hover img{
+    width: 30px;
+}
+#contact input{
+    border: none !important;
+    background-color: #f5f6fa;
+    border-bottom: 2px solid #383535 !important;
+}
+#contact input:focus{
+    border-bottom: 2px solid #7e57c2 !important;
+
+}
+#contact textarea{
+    border: none !important;
+    border-bottom: 2px solid #353333 !important;
+    background-color: transparent !important;
+}
+#contact textarea:focus{
+    border-bottom: 2px solid #7e57c2 !important;
+
+}
+#contact input:focus{
+    box-shadow: none;
+}
+#contact textarea:focus{
+    box-shadow: none;
+}
+#submit{
+    letter-spacing: 2px;
+    border: 2px solid #353333;
+    border-radius: 50px;
+}
+#submit:hover{
+    background-color: #7e57c2;
+}
+#submit i{
+    background-color: transparent;
+}
+#about .box{
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    background: transparent !important;
+
+
+}
+#about .box img{
+    width: auto;
+    height: auto;
+    background: transparent !important;
+}
+#about p{
+    text-align: justify;
+}
+#btn-1,#btn-2{
+    border: 2px solid #353333;
+    border-radius: 30px;
+    margin-left:10px ;
+    letter-spacing: 2px;
+    
+}
+#btn-1 i{
+    background: transparent;
+}
+#btn-2 i{
+    background: transparent;
+}
+#btn-2:hover{
+    background-color: #7e57c2;
+    
+}
+#btn-1:hover{
+    background-color: #7e57c2;
+    
+}
+.card-title{
+    background-color: black;
+    text-align: center;
+    padding: 6px;
+    color: #f5f6fa;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+#hobbies .con img{
+    margin: 10px;
+    width: 70px;
+}
+#hobbies p{
+    text-align: justify;
+}
+#project .card img{
+    width: auto;
+    height: 240px;
+}
